@@ -1,0 +1,28 @@
+
+.circular-button {
+    position: fixed;
+    bottom: 40px; 
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:  1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    transition: transform .2s;
+    font-size: 16px;
+    cursor: pointer;
+
+  }
+  
+  .circular-button:hover {
+    transform: scale(1.2);
+
+  }
+  
+  .button-icon {
+    width: 40px; 
+    height: 40px; 
+    margin-right: 5px; 
+  }
+  
