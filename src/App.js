@@ -18,7 +18,7 @@ const App = () => {
   useEffect(() => {
     const fetchCards = async () => {
     try {
-      const response = await axios.get(`http://localhost:8000/search?tags=${tags}&query=${query}`);
+      const response = await axios.get(`https://chatbotify-y83w.onrender.com/search?tags=${tags}&query=${query}`);
       setAllCards(response.data.results);
     } catch (error) {
       console.error('Error fetching data:', error);

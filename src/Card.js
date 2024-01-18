@@ -5,7 +5,7 @@ const Card = ({ heading, description, link }) => {
     const handleLinkClick = async() => {
         try {
           // Make a POST request to the backend endpoint
-            const response = await fetch('http://localhost:8000/card_clicked/', {
+            const response = await fetch('https://chatbotify-y83w.onrender.com/card_clicked/', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',

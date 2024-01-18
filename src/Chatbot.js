@@ -14,7 +14,7 @@ const Chatbot = () => {
       max_tokens: 300
     };
 try {
-    const response = await fetch('http://localhost:8000/ask_chatbot/', {
+    const response = await fetch('https://chatbotify-y83w.onrender.com/ask_chatbot/', {
       method: 'POST',
       headers: {
       'Content-Type': 'application/json',

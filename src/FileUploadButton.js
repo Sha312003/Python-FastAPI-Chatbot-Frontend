@@ -30,7 +30,7 @@ const FileUploadButton = () => {
       formData.append('file', file);
 
       try {
-        const response = await fetch('http://localhost:8000/upload_csv/', {
+        const response = await fetch('https://chatbotify-y83w.onrender.com/upload_csv/', {
           method: 'POST',
           body: formData,
         });
